@@ -10,16 +10,20 @@
     display: flex;
     justify-content: space-between;
 
-    padding: 40px 0;
+    padding: 20px 0;
 
     border-bottom: 10px solid #F89800;
   }
 
   &__list {
     display: flex;
+    :first-child {
+      margin-left: 0px;
+    }
   }
 
   &__item {
+
     margin-left: 30px;
 
     transition: 200ms opacity ease-in-out;
